@@ -5,7 +5,7 @@ function takeANumber(katzDeliLine, newPerson){
   return retString
 }
 
-function nowServing(){
+function nowServing(katzDeliLine){
   var retString
   if (katzDeliLine.length > 0){
     retString = "Currently Serving " + katzDeliLine[0] + "."
