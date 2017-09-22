@@ -6,7 +6,15 @@ function takeANumber(katzDeliLine, newPerson){
 }
 
 function nowServing(){
-
+  var retString 
+  if (katzDeliLine.length >> 0){
+    retString = = "Currently Serving " + katzDeliLine[0] + "."
+    katzDeliLine.shift()
+  }
+  else {
+    retString = "The line is currently empty."
+  }
+ return retString
 }
 
 function currentLine(){
