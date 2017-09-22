@@ -8,7 +8,7 @@ function takeANumber(katzDeliLine, newPerson){
 function nowServing(katzDeliLine){
   var retString
   if (katzDeliLine.length > 0){
-    retString = "Currently Serving " + katzDeliLine[0] + "."
+    retString = "Currently serving " + katzDeliLine[0] + "."
     katzDeliLine.shift()
   }
   else {
