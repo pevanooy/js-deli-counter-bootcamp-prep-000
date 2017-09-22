@@ -25,6 +25,6 @@ function currentLine(katzDeliLine){
       var nbrInLine = i + 1
       retString = retString +  nbrInLine.toString() + ". " + katzDeliLine[i] + ", "
     }
-    
+
   }
 }
