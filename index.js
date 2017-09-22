@@ -25,6 +25,7 @@ function currentLine(katzDeliLine){
       var nbrInLine = i + 1
       retString = retString +  nbrInLine.toString() + ". " + katzDeliLine[i] + ", "
     }
-    return retString
+    //remove last comma
+    return retString.slice(0,-2)
   }
 }
