@@ -12,7 +12,7 @@ function nowServing(){
     katzDeliLine.shift()
   }
   else {
-    retString = "The line is currently empty."
+    retString = "There is nobody waiting to be served!"
   }
  return retString
 }
